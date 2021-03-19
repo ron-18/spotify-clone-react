@@ -1,0 +1,35 @@
+.mainHeader{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.headerLeft{
+    display:flex;
+    background-color: white;
+    border-radius:30px;
+    padding:5px;
+    flex:0.5;
+    min-width: 70px; /* for mobile view good*/
+}
+
+.search{
+    color:gray;
+}
+
+.input{
+
+    border:none;
+    outline:none;   /* very important property while working with input  */
+    width:100%;
+}
+
+.headerRight{
+    display:flex;
+    align-items: center;
+}
+
+.headerRight>h4{
+    margin-left: 10px;
+}
