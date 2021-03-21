@@ -70,7 +70,7 @@ function Footer(props:{trackUri:string | undefined}){
         setPlay(true);
     },[props.trackUri])
 
-    console.log(props.trackUri);
+    // console.log(props.trackUri);
     if(!props.trackUri) return (<div></div>);
     return(
         <div className="footer">

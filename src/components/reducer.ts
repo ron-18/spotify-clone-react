@@ -73,7 +73,8 @@ export interface User{
         id: string,
         images?: Image[],
         type: string,
-        uri: string
+        uri: string,
+        product?:string;
 
 }
 
@@ -171,7 +172,8 @@ export const initialState:InitialState={
         id: "",
         images: [],
         type: "",
-        uri: ""
+        uri: "",
+        product:""
     },
     playlists:[],
     playing:false,
@@ -234,7 +236,7 @@ export type Action =
 
 export const reducer = (state:InitialState,action:Action)=>{
 
-    console.log(action); // good debugging
+   // console.log(action); // good debugging
 
     switch(action.type)
     {

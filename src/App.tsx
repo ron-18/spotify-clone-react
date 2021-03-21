@@ -31,7 +31,7 @@ function App() {
         globalValueController.stateDispatch({type:"SET_TOKEN",token})
         spotify.setAccessToken(token);
         spotify.getMe().then((user)=>{
-            console.log(user);
+            // console.log(user);
             globalValueController.stateDispatch({
               type:"SET_USER",user
             })
@@ -62,7 +62,7 @@ function App() {
   return (
     <div className="App">
      {token?<Player smallScreen = {smallScreen} sideBar={sidebar} setSidebar={setSidebar} setPlaylistId={setPlaylistId} />:<Login />} 
-     {console.log(token)}     
+     {/* {console.log(token)}      */}
     </div>
 
   );
