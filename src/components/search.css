@@ -1,0 +1,45 @@
+.searchPage{
+    flex:0.8;
+    height:100vh;
+    background-image: linear-gradient(rgb(91,87,115,1), rgba(0,0,0,1));
+    padding:35px;
+    color:white;
+    overflow-y: overlay;
+}
+
+.large{
+    flex:1;
+
+}
+
+.extra{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display:flex;
+    justify-content: start;
+    align-items: baseline;
+}
+.searchBar{
+    display:flex;
+    flex:1;
+    align-items: center;
+    background-color: white;
+    border-radius:30px;
+    padding:5px;
+    height:fit-content;
+    min-width: 80px; /* for mobile view good*/
+}
+
+.search{
+    color:gray;
+}
+
+.input{
+
+    border:none;
+    outline:none;   /* very important property while working with input  */
+    width:100%;
+}

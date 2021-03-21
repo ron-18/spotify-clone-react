@@ -1,6 +1,6 @@
 import {createContext,useContext,useReducer} from "react";
 import React from "react";
-import {InitialState,initialState,reducer,Action} from "./reudcer";
+import {InitialState,initialState,reducer,Action} from "./reducer";
 
 export interface ContextType{
     contextState:InitialState;

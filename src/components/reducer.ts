@@ -15,7 +15,7 @@ export interface Playlist{
     external_urls:Eurls;
     href:string;
     id:string;
-    images:Image[] | undefined;
+    images:Image[]|  undefined;
     name:string;
     owner:User;
     primary_color?:undefined;

@@ -9,7 +9,12 @@ const scopes=[
     "user-read-recently-played",
     "user-read-playback-state",
     "user-top-read",
-    "user-modify-playback-state"
+    "user-modify-playback-state",
+    "streaming",
+    "user-read-email",
+    "user-read-private",
+    "user-library-read",
+    "user-library-modify"
 ];
 
 export const extractTokenFromResponse = ()=>{
