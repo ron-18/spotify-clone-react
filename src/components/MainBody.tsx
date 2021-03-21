@@ -28,8 +28,8 @@ function MainBody(props:{smallScreen:boolean,sideBar:boolean,setSidebar:React.Di
                 <div className="body_info">
                     <img src={globalValueController.contextState.discover_tracks?.images[0]?.url} alt="Discover Weekly image"></img>
                     <div className="body_text">
-                        <strong>PLAYLIST</strong>
-                        <h2>Discover Weekly</h2>
+                        <strong>{globalValueController.contextState.discover_tracks?.name}</strong>
+                        <h2>{globalValueController.contextState.discover_tracks?.description}</h2>
                         <p>{globalValueController.contextState.discover_tracks?.description}</p>
                     </div>
                     </div> 
